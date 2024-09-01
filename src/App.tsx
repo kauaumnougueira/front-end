@@ -3,6 +3,7 @@ import Initial from './pages/Initial';
 import Apoie from './pages/Apoie';
 import Estacoes from './pages/Estacoes';
 import Layout from './components/Outlet';
+import Voluntario from './pages/voluntario';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route index element={ <Initial /> } />
         <Route path="apoie" element={ <Apoie /> } />
         <Route path="estacoes" element={<Estacoes />}/>
+        <Route path="voluntarios" element ={<Voluntario/>}/>
       </Route>
     </Routes>
   );

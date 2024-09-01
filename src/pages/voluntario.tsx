@@ -6,7 +6,7 @@ import iconeCard3 from './imagens/icone-card-3.png';
 import imagemWhatsapp from './imagens/whatsapp.png';
 import './App.css';
 
-function App() {
+function Voluntario() {
   return (
     <>
     <div className='section__voluntario'>
@@ -104,7 +104,7 @@ function App() {
   );
 }
 
-export default App;
+export default Voluntario;
 
 const whatsappBtn = document.querySelector('#whatsappBtn');
 
