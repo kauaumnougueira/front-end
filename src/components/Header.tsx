@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 
 export default function Header() {
-  
-
   return (
-    <header className="min-w-full container flex flex-row margin shadow-md items-center bg-mainGray">
+    <header
+      className="min-w-full container flex
+      flex-row margin shadow-md items-center bg-mainGray"
+    >
       <div>
         <Link to="/"><img src="/logo.png" alt="" className="max-w-48 px-4" /></Link>
       </div>

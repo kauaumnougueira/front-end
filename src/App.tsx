@@ -13,8 +13,8 @@ function App() {
         <Route index element={ <Initial /> } />
         <Route path="sobre" element={ <Sobre /> } />
         <Route path="apoie" element={ <Apoie /> } />
-        <Route path="estacoes" element={<Estacoes />}/>
-        <Route path="voluntarios" element ={<Voluntario/>}/>
+        <Route path="estacoes" element={ <Estacoes /> } />
+        <Route path="voluntarios" element={ <Voluntario /> } />
       </Route>
     </Routes>
   );
