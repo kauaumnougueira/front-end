@@ -30,12 +30,12 @@ export default function Header() {
       </nav>
       <div className="flex flex-row py-8 px-8 justify-between w-2/6">
         <button
-          className="bg-green-600 text-white rounded-3xl px-8 py-2"
+          className="bg-mainGreen text-white rounded-3xl px-8 py-2"
         >
           Gestor
         </button>
         <button
-          className="bg-green-600 text-white rounded-3xl px-8"
+          className="bg-mainGreen text-white rounded-3xl px-8"
         >
           Aluno
         </button>

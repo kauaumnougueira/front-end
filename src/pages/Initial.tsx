@@ -1,8 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 function Initial() {
-  const navigate = useNavigate();
-
   return (
     <div className="items-center w-3/4 bg-mainGray shadow-custom rounded-2xl">
       <div className="flex">

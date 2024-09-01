@@ -10,6 +10,7 @@ export default {
       'mainGray': '#F4F4F4',
       'secondaryGray': '#D9D9D9',
       'red': '#FF0000',
+      'white': '#FFFFFF',
 
     },
     extend: {
