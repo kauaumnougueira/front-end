@@ -12,7 +12,7 @@ function Initial() {
             className="rounded-full"
           />
         </div>
-        <div className="justify-between bg-yellow-700">
+        <div className="justify-between bg-yellow-700 pt-8">
           <figure className="flex flex-row items-center">
             <img
               src="../../public/figura-001.png"
@@ -21,7 +21,7 @@ function Initial() {
             />
             <h1 className="px-2 py-4 text-3xl">O que é?</h1>
           </figure>
-          <p className="px-4 py-12 text-2xl h-1/2">
+          <p className="px-4 py-12 text-xl h-1/2">
             As Estações Tech são mais que centros tecnológicos;
             são espaços de reconhecimento de saberes e desenvolvimento
             comunitário, que, além de ultrapassarem o espaço físico,
