@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const coordinates = [
@@ -28,7 +27,7 @@ const coordinates = [
 
 function MapExample() {
   return (
-    <MapContainer center={ [-2.5898, -44.2316] } zoom={ 8 } style={ { height: '100vh', width: '100%' } }>
+    <MapContainer  center={ [-2.5898, -44.2316] } zoom={ 8 } style={ { height: '100vh', width: '100%' } }>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
