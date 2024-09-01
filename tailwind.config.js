@@ -11,7 +11,7 @@ export default {
       'secondaryGray': '#D9D9D9',
       'red': '#FF0000',
       'white': '#FFFFFF',
-
+      'cinza': '#FAFAFA'
     },
     extend: {
       boxShadow: {
