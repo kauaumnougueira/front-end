@@ -4,16 +4,16 @@ function Initial() {
   const navigate = useNavigate();
 
   return (
-    <div className="items-center w-3/4">
-      <div className="flex bg-red-700">
+    <div className="items-center w-3/4 bg-mainGray shadow-custom rounded-2xl">
+      <div className="flex">
         <div
-          className="flex items-center w-fit p-8 bg-gray-400
-           justify-center rounded-full m-4"
+          className="flex items-center w-4/5
+           justify-center p-8 mx-8 rounded-full "
         >
           <img
-            src="../../public/estacao-tech.jpeg"
+            src="../../public/estacao-tech (1).jpeg"
             alt="foto da estacao tech"
-            className="h-56 w-full rounded-full"
+            className="rounded-full"
           />
         </div>
         <div className="justify-between bg-yellow-700">
