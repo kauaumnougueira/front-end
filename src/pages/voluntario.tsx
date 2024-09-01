@@ -1,10 +1,10 @@
-import imgVoluntario from './imagens/icon-voluntario.png';
-import imgQrCode from './imagens/qrCode.png';
-import iconeCard1 from './imagens/icone-card-1.png';
-import iconeCard2 from './imagens/icone-card-2.png';
-import iconeCard3 from './imagens/icone-card-3.png';
-import imagemWhatsapp from './imagens/whatsapp.png';
-import './App.css';
+import imgVoluntario from '../assets/icon-voluntario.png';
+import imgQrCode from '../assets/qrCode.png';
+import iconeCard1 from '../assets/icone-card-1.png';
+import iconeCard2 from '../assets/icone-card-2.png';
+import iconeCard3 from '../assets/icone-card-3.png';
+import imagemWhatsapp from '../assets/whatsapp.png';
+import '../app.css';
 
 function Voluntario() {
   return (
