@@ -5,7 +5,7 @@ const Apoie = () => {
         <div className="p-12 rounded-lg shadow-lg max-w-2xl w-full bg-mainGray -mt-20"> {/* Ajuste o max-w e o padding */}
           <div className="flex items-center mb-6 justify-center space-x-4">
             {/* Ajuste da Imagem e Título */}
-            <img src="../../public/older_placed.png" alt="Contact Image" className="w-20" />
+            <img src="/older_placed.png" alt="Contact Image" className="w-20" />
             <h2 className="text-2xl font-semibold text-gray">Apoie uma Estação Tech</h2>
           </div>
   

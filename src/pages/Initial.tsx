@@ -10,7 +10,7 @@ function Initial() {
            justify-center p-8 mx-8 rounded-full "
         >
           <img
-            src="../../public/estacao-tech (1).jpeg"
+            src="/estacao-tech (1).jpeg"
             alt="foto da estacao tech"
             className="rounded-full"
           />
@@ -18,7 +18,7 @@ function Initial() {
         <div className="justify-between bg-yellow-700 pt-8">
           <figure className="flex flex-row items-center">
             <img
-              src="../../public/figura-001.png"
+              src="/figura-001.png"
               alt="Figura de um rapaz com lupa"
               className="px-4 w-1/6 h-1/6"
             />
