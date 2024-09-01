@@ -2,7 +2,7 @@ import '../app.css';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='mt-32'>
             <div className='container__footer'>
                 <button className='btn'>
                     Seja voluntário

@@ -3,7 +3,6 @@ import imgQrCode from '../assets/qrCode.png';
 import iconeCard1 from '../assets/icone-card-1.png';
 import iconeCard2 from '../assets/icone-card-2.png';
 import iconeCard3 from '../assets/icone-card-3.png';
-import imagemWhatsapp from '../assets/whatsapp.png';
 import '../app.css';
 
 function Voluntario() {
@@ -59,11 +58,7 @@ function Voluntario() {
 
    
 
-    <div className='whatsapp__button' id='whatsappBtn'>
-      <a href="#">
-        <img src={imagemWhatsapp} alt='Icone do whatsapp' className='img__whatsapp' />
-      </a>
-    </div>
+  
 
     </>
   );
@@ -71,10 +66,3 @@ function Voluntario() {
 
 export default Voluntario;
 
-const whatsappBtn = document.querySelector('#whatsappBtn');
-
-setInterval(() => {
-  if(whatsappBtn != null) {
-    whatsappBtn.classList.toggle("animateWhatsapp");
-  }
-}, 4000);

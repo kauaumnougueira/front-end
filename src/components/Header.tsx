@@ -6,12 +6,12 @@ export default function Header() {
   return (
     <header className="min-w-full container flex flex-row margin shadow-md items-center bg-mainGray">
       <div>
-        <img src="/logo.png" alt="" className="max-w-48 px-4" />
+        <Link to="/"><img src="/logo.png" alt="" className="max-w-48 px-4" /></Link>
       </div>
       <nav className="container flex flex-row">
         <ul className="container flex flex-row justify-evenly justify-items">
           <li>
-            <Link to="/">Quem somos</Link>
+            <Link to="/sobre">Quem somos</Link>
           </li>
           <li>
             <Link to="/estacoes">Estações Tech</Link>
