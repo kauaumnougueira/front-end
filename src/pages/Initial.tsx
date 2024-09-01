@@ -1,3 +1,27 @@
+import Map from '../components/Map';
+
+const coorinates = [
+  {
+    lat: -23.5505,
+    lng: -46.6333,
+  },
+  {
+    lat: -23.5505,
+    lng: -46.6333,
+  },
+  {
+    lat: -23.5505,
+    lng: -46.6333,
+  },
+  {
+    lat: -23.5505,
+    lng: -46.6333,
+  },
+  {
+    lat: -23.5505,
+    lng: -46.6333,
+  },
+];
 function Initial() {
   return (
     <div className="items-center w-3/4 bg-mainGray shadow-custom rounded-2xl">
@@ -30,6 +54,10 @@ function Initial() {
             o cotidiano.
           </p>
         </div>
+      </div>
+      <div>
+        <Map />
+
       </div>
     </div>
   );
