@@ -18,9 +18,6 @@ export default function Header() {
             <Link to="/">Quem somos</Link>
           </li>
           <li>
-            <Link to="/estacoes">Estações Tech</Link>
-          </li>
-          <li>
             <Link to="/voluntario">Seja Voluntário</Link>
           </li>
           <li>
